@@ -1,15 +1,9 @@
-<!-- =================================================
-Theme Name: Topper Bootstrap Theme 
-Author: WebThemez.com
-License: https://webthemez.com/license
-======================================================= -->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title>Mirrors Beauty Parlour Website</title>
+  <title>Sonia Artistry Beauty Parlour</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -24,1498 +18,26 @@ License: https://webthemez.com/license
     rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-
-
-  <style>
-    /* 
-Theme Name: Topper Bootstrap Theme 
-Author: WebThemez.com
-License: https://webthemez.com/license 
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-body {
-  background: #0b111f;
-  color: #dadada;
-  font-family: "Open Sans", sans-serif;
-}
-
-a {
-  color: #c802a0;
-  transition: 0.5s;
-}
-
-a:hover,
-a:active,
-a:focus {
-  color: #51d8af;
-  outline: none;
-  text-decoration: none;
-}
-
-p {
-  padding: 0;
-  margin: 0 0 30px 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  margin: 0 0 20px 0;
-  padding: 0;
-}
-
-/* Back to top button */
-.back-to-top {
-  position: fixed;
-  display: none;
-  background: #c802a0;
-  color: #fff;
-  padding: 6px 12px 9px 12px;
-  font-size: 16px;
-  border-radius: 2px;
-  right: 15px;
-  bottom: 15px;
-  transition: background 0.5s;
-}
-
-@media (max-width: 768px) {
-  .back-to-top {
-    bottom: 15px;
-  }
-}
-
-.back-to-top:focus {
-  background: #c802a0;
-  color: #fff;
-  outline: none;
-}
-
-.back-to-top:hover {
-  background: #141825;
-  color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
-#topbar {
-  background: linear-gradient(45deg, #c802a0 -132%, #0c2e8a 100%);
-  padding: 10px 0;
-  border-bottom: 1px solid #eee;
-  font-size: 14px;
-  display: none !important;
-}
-
-#topbar .contact-info a {
-  line-height: 1;
-  color: #acacac;
-}
-
-#topbar .contact-info a:hover {
-  color: #c802a0;
-}
-
-#topbar .contact-info i {
-  color: #c802a0;
-  padding: 4px;
-}
-
-.contact-info.float-left {
-  color: #acacac;
-}
-
-#topbar .contact-info .fa-phone {
-  padding-left: 20px;
-  margin-left: 20px;
-  border-left: 1px solid #e9e9e947;
-}
-
-#topbar .social-links a {
-  color: #c802a0;
-  padding: 4px 12px;
-  display: inline-block;
-  line-height: 1px;
-  border-left: 1px solid #e9e9e924;
-}
-
-#topbar .social-links a:hover {
-  color: #c802a0;
-}
-
-#topbar .social-links a:first-child {
-  border-left: 0;
-}
-
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-#header {
-  padding: 20px 0;
-  height: 130px;
-  transition: all 0.5s;
-  z-index: 997;
-  box-shadow: 3px 2px 4px 0px rgba(0, 0, 0, 0.06);
-  background: #0b111f;
-}
-
-#header #logo h1 {
-  font-size: 34px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-}
-
-#header #logo h1 a {
-  color: #c802a0;
-  line-height: 1;
-  display: inline-block;
-}
-
-#header #logo h1 a span {
-  color: #f8b4ff;
-  padding: 0 1px;
-  border-radius: 0 10px;
-}
-
-#header #logo img {
-  padding: 0;
-  margin: 0;
-  width: 100px;
-}
-
-@media (max-width: 768px) {
-  #header {
-    padding: 20px 0;
-    height: 74px;
-  }
-
-  #header #logo h1 {
-    font-size: 34px;
-  }
-
-  #header #logo img {
-    max-height: 40px;
-  }
-}
-
-/*--------------------------------------------------------------
-# Intro Section
---------------------------------------------------------------*/
-#intro {
-  width: 100%;
-  height: 87vh;
-  position: relative;
-  background: url("../img/intro-carousel/1.jpg") no-repeat;
-  background-size: contain;
-}
-
-#intro .intro-content {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  right: 0;
-  left: 14%;
-  z-index: 10;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: left;
-}
-
-#intro .intro-content h2 {
-  color: #ffffff;
-  margin-bottom: 30px;
-  font-size: 24px;
-  text-align: left;
-}
-
-#intro .intro-content h2 span {
-  color: #c802a0;
-  text-align: right;
-  font-size: 32px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-li.menu-active a {
-  /* background: #c802a0; */
-  color: white !important;
-  border-radius: 5px 0 5px;
-}
-
-li.menu-active a:hover {
-  background: #c802a0;
-}
-
-.nav-menu li a:hover {
-  background: #c802a0;
-  border-radius: 5px 0 5px;
-  color: white !important;
-}
-
-@media (max-width: 767px) {
-  #intro .intro-content h2 {
-    font-size: 18px;
-    padding: 0;
-  }
-
-  #intro .intro-content h2 span {
-    font-size: 18px;
-  }
-}
-
-#intro .intro-content .btn-get-started,
-#intro .intro-content .btn-projects {
-  font-family: "Raleway", sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 32px;
-  border-radius: 2px;
-  transition: 0.5s;
-  margin: 10px;
-  color: #1d1d1d;
-}
-
-#intro .intro-content .btn-get-started {
-  background: #c802a0;
-  border: 2px solid #c802a0;
-  border-radius: 5px 0 5px;
-  margin: 0;
-}
-
-#intro .intro-content .btn-get-started:hover {
-  background: none;
-  color: #c802a0;
-}
-
-#intro .intro-content .btn-projects {
-  background: #c802a0;
-  border: 2px solid #c802a0;
-}
-
-#intro .intro-content .btn-projects:hover {
-  background: none;
-  color: #c802a0;
-}
-
-#intro #intro-carousel {
-  z-index: 8;
-}
-
-#intro #intro-carousel::before {
-  content: "";
-  background-color: rgba(255, 255, 255, 0.7);
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 7;
-}
-
-#intro #intro-carousel .item {
-  width: 100%;
-  height: 60vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-transition-property: opacity;
-  transition-property: opacity;
-}
-
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Nav Menu Essentials */
-.nav-menu,
-.nav-menu * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.nav-menu ul {
-  position: absolute;
-  display: none;
-  top: 100%;
-  left: 0;
-  z-index: 99;
-}
-
-.nav-menu li {
-  position: relative;
-  white-space: nowrap;
-}
-
-.nav-menu>li {
-  float: left;
-}
-
-.nav-menu li:hover>ul,
-.nav-menu li.sfHover>ul {
-  display: block;
-}
-
-.nav-menu ul ul {
-  top: 0;
-  left: 100%;
-}
-
-.nav-menu ul li {
-  min-width: 180px;
-}
-
-/* Nav Menu Arrows */
-.sf-arrows .sf-with-ul {
-  padding-right: 22px;
-}
-
-.sf-arrows .sf-with-ul:after {
-  content: "\f107";
-  position: absolute;
-  right: 8px;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.sf-arrows ul .sf-with-ul:after {
-  content: "\f105";
-}
-
-/* Nav Meu Container */
-#nav-menu-container {
-  float: right;
-  margin: 0;
-}
-
-@media (max-width: 768px) {
-  #nav-menu-container {
-    display: none;
-  }
-}
-
-/* Nav Meu Styling */
-.nav-menu a {
-  padding: 10px 16px;
-  text-decoration: none;
-  display: inline-block;
-  color: #cdcdcd;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  outline: none;
-  margin-top: 20px;
-}
-
-.nav-menu li:hover>a,
-.nav-menu>.menu-active>a {
-  color: #c802a0;
-}
-
-.nav-menu>li {
-  margin-left: 0;
-}
-
-.nav-menu ul {
-  margin: 4px 0 0 0;
-  padding: 10px;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  background: #0b111f;
-}
-
-.nav-menu ul li {
-  transition: 0.3s;
-}
-
-.nav-menu ul li a {
-  padding: 10px;
-  color: #cdcdcd;
-  transition: 0.3s;
-  display: block;
-  font-size: 13px;
-  text-transform: none;
-}
-
-.nav-menu ul li:hover>a {
-  color: #c802a0;
-}
-
-.nav-menu ul ul {
-  margin: 0;
-}
-
-/* Mobile Nav Toggle */
-#mobile-nav-toggle {
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 999;
-  margin: 20px 20px 0 0;
-  border: 0;
-  background: none;
-  font-size: 24px;
-  display: none;
-  transition: all 0.4s;
-  outline: none;
-  cursor: pointer;
-}
-
-#mobile-nav-toggle i {
-  color: #9c27b0;
-}
-
-@media (max-width: 768px) {
-  #mobile-nav-toggle {
-    display: inline;
-  }
-}
-
-/* Mobile Nav Styling */
-#mobile-nav {
-  position: fixed;
-  top: 0;
-  padding-top: 18px;
-  bottom: 0;
-  z-index: 998;
-  background: #888;
-  left: -260px;
-  width: 260px;
-  overflow-y: auto;
-  transition: 0.4s;
-  background: linear-gradient(45deg, #7b1767 -200%, #010716 100%);
-}
-
-#mobile-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-#mobile-nav ul li {
-  position: relative;
-}
-
-#mobile-nav ul li a {
-  color: #fffc;
-  font-size: 16px;
-  overflow: hidden;
-  padding: 10px 22px 10px 15px;
-  position: relative;
-  text-decoration: none;
-  width: 100%;
-  display: block;
-  outline: none;
-}
-
-#mobile-nav ul li a:hover {
-  color: #fff;
-}
-
-#mobile-nav ul li li {
-  padding-left: 30px;
-}
-
-#mobile-nav ul .menu-has-children i {
-  position: absolute;
-  right: 0;
-  z-index: 99;
-  padding: 15px;
-  cursor: pointer;
-  color: #fff;
-}
-
-#mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #c802a0;
-}
-
-#mobile-nav ul .menu-item-active {
-  color: #c802a0;
-}
-
-#mobile-body-overly {
-  width: 100%;
-  height: 100%;
-  z-index: 997;
-  top: 0;
-  left: 0;
-  position: fixed;
-  background: rgba(13, 13, 13, 0.9);
-  display: none;
-}
-
-/* Mobile Nav body classes */
-body.mobile-nav-active {
-  overflow: hidden;
-}
-
-body.mobile-nav-active #mobile-nav {
-  left: 0;
-}
-
-body.mobile-nav-active #mobile-nav-toggle {
-  color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Sections
---------------------------------------------------------------*/
-/* Sections Header
---------------------------------*/
-.section-header {
-  margin-bottom: 30px;
-}
-
-.section-header h2 {
-  font-size: 32px;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-weight: 700;
-  position: relative;
-  padding-bottom: 20px;
-  /* display: inline-block; */
-  text-align: center;
-}
-
-.section-header h2::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 46px;
-  height: 3px;
-  bottom: 0;
-  left: 0;
-  border-top: #c802a0 dotted 10px;
-  right: 0;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.section-header p {
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
-/* About Section
---------------------------------*/
-#about {
-  position: relative;
-  overflow: HIDDEN;
-  /* background: #0b111f; */
-}
-
-#about .about-img {
-  overflow: hidden;
-}
-
-#about .about-img img {
-  margin-left: -15px;
-  max-width: 100%;
-}
-
-@media (max-width: 768px) {
-  #about .about-img {
-    height: auto;
-  }
-
-  #about .about-img img {
-    margin-left: 0;
-    padding-bottom: 30px;
-  }
-}
-
-#about .content h2 {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-}
-
-#about .content h3 {
-  color: #d5d5d5;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  font-style: italic;
-}
-
-#about .content p {
-  line-height: 26px;
-}
-
-#about .content p:last-child {
-  margin-bottom: 0;
-}
-
-#about .content i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #c802a0;
-}
-
-#about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-#about .content ul li {
-  padding-bottom: 10px;
-}
-
-/* Services Section
---------------------------------*/
-#services {
-  background: #ce70bb;
-}
-
-section#services h2,
-#services p {
-  color: #0b111f;
-}
-
-#services .card {
-  width: 100% !important;
-  margin-bottom: 30px;
-  border-radius: 0px;
-  border: none;
-  transition: 0.4s;
-}
-
-#services .card:hover {
-  position: relative;
-  top: -5px;
-  transition: 0.4s;
-}
-
-#services .box {
-  padding: 40px;
-  margin-bottom: 40px;
-  background: #fff;
-  transition: 0.4s;
-  border: 1px solid #dedede;
-}
-
-#services .box:hover {
-  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
-  transform: translateY(-10px);
-  -webkit-transform: translateY(-10px);
-  -moz-transform: translateY(-10px);
-}
-
-#services .box .icon {
-  display: block;
-  width: 100%;
-  text-align: center;
-  padding: 15px;
-}
-
-.card-title {
-  /* margin-bottom: .75rem; */
-  text-align: center;
-  color: #0b111f;
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-#services .box .icon i {
-  color: #444;
-  font-size: 44px;
-  transition: 0.5s;
-  line-height: 0;
-  margin-top: 0px;
-}
-
-#services .box .icon i:before {
-  background: #0c2e8a;
-  background: linear-gradient(45deg, #c802a0 0%, #e666f5 100%);
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-#services .box h4 {
-  margin-left: 100px;
-  font-weight: 700;
-  margin-bottom: 24px;
-  font-size: 22px;
-  display: block;
-  width: 100%;
-  text-align: center;
-  float: left;
-  margin: 0;
-}
-
-#services .box h4 a {
-  color: #444;
-}
-
-#services .box p {
-  font-size: 14px;
-  line-height: 24px;
-  text-align: center;
-  display: block;
-  margin: 0;
-  padding-top: 15px;
-  color: #0b111f;
-}
-
-.row {
-  width: fit-content;
-  justify-content: space-between;
-  margin-top: 60px;
-}
-
-.describe_content {
-  border-top: 2px solid black;
-  padding: 20px;
-  font-weight: bold;
-  background: whitesmoke;
-  color: black;
-  width: 100%;
-  display: none;
-}
-.card-title{
-  cursor: pointer;
-    width: fit-content;
-    margin: auto;
-    padding: 10px;
-    border-radius: 5px 0 5px;
-}
-.card-title:hover{
-  background-color: #c802a0;
-  border-radius: 5px 0 5px; 
-  color: white;
-}
-img[alt="shop_poster"],
-img[alt="owner_cert"] {
-  width: 45%;
-  background: whitesmoke;
-  border: 4px solid #c802c0;
-  padding: 10px;
-}
-
-@media (max-width: 767px) {
-  #services .box .box {
-    margin-bottom: 20px;
-  }
-
-  #services .box .icon {
-    float: none;
-    text-align: center;
-    padding-bottom: 15px;
-  }
-
-  #services .box h4,
-  #services .box p {
-    margin-left: 0;
-    text-align: center;
-  }
-}
-
-/* Clients Section
---------------------------------*/
-#clients {
-  background: #c802a0;
-}
-
-#clients img {
-  max-width: 100%;
-  opacity: 0.5;
-  transition: 0.3s;
-  padding: 15px 0;
-}
-
-#clients img:hover {
-  opacity: 1;
-}
-
-#clients .owl-nav,
-#clients .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-#clients .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-}
-
-#clients .owl-dot.active {
-  background-color: #c802a0;
-}
-
-/* Our Portfolio Section
---------------------------------*/
-#portfolio {
-  background: #0b111f;
-  color: #ffffff9c;
-}
-
-#portfolio .portfolio-overlay {
-  /* position: absolute; */
-  top: 0;
-  right: 0;
-  /* bottom: 50%; */
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-  -webkit-transition: all ease-in-out 0.4s;
-  transition: all ease-in-out 0.4s;
-  text-align: center;
-  margin-top: -66px;
-}
-
-#portfolio .portfolio-item {
-  overflow: hidden;
-  position: relative;
-  padding: 0;
-  vertical-align: middle;
-  text-align: center;
-}
-
-#portfolio .portfolio-item h2 {
-  color: #ffffff;
-  font-size: 16px;
-  margin: 0;
-  text-transform: capitalize;
-  font-weight: 700;
-  background: #00000085;
-  padding: 25px;
-  /* background: linear-gradient(45deg, #c802a057 0%, #405ece91 100%); */
-}
-.cta-text{
-  text-align: center;
-}
-#portfolio .portfolio-item img {
-  -webkit-transition: all ease-in-out 0.4s;
-  transition: all ease-in-out 0.4s;
-  width: 100%;
-}
-
-#portfolio .portfolio-item:hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-#portfolio .portfolio-item:hover .portfolio-overlay {
-  opacity: 1;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-#portfolio .portfolio-info {
-  position: relative;
-  /* top: 50%; */
-  /* left: 24%; */
-  /* -webkit-transform: translate(-50%, -50%); */
-  /* transform: translate(-50%, -50%); */
-  /* opacity: 0; */
-  /* bottom: 62px; */
-}
-
-/* Testimonials Section
---------------------------------*/
-#testimonials {}
-
-#testimonials .testimonial-item {
-  box-sizing: content-box;
-  padding: 30px 30px 0 30px;
-  margin: 30px 15px;
-  text-align: center;
-  min-height: 250px;
-  /* box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08); */
-}
-
-@media (max-width: 767px) {
-  #testimonials .testimonial-item {
-    margin: 30px 10px;
-  }
-}
-
-#testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  margin: 0 auto;
-}
-
-#testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #e6e6e6;
-}
-
-#testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0;
-}
-
-#testimonials .testimonial-item .quote-sign-left {
-  margin-top: -15px;
-  padding-right: 10px;
-  display: inline-block;
-  width: 37px;
-}
-
-#testimonials .testimonial-item .quote-sign-right {
-  margin-bottom: -15px;
-  padding-left: 10px;
-  display: inline-block;
-  max-width: 100%;
-  width: 37px;
-}
-
-#testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 auto 15px auto;
-  width: 100%;
-  border: 1px solid #c802a0;
-  border-radius: 15px 15px 0 15px;
-  padding: 22px 15px;
-  font-size: 15px;
-  color: #a7a7a7;
-}
-
-#testimonials .owl-nav,
-#testimonials .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-#testimonials .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-}
-
-#testimonials .owl-dot.active {
-  background-color: #c802a0;
-}
-
-.map {
-  margin: 80px auto 40px;
-}
-
-p.help-block,
-p.help-block ul {
-  float: left;
-  margin: 0;
-  padding: 0;
-}
-
-p.help-block li {
-  float: left;
-  margin: 10px 0 0 0;
-  padding: 0;
-  list-style: none;
-  color: red;
-}
-
-/* Call To Action Section
---------------------------------*/
-#call-to-action {
-  background: #c802a0;
-  background-size: cover;
-  padding: 40px 0;
-}
-
-#call-to-action .cta-title {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-#call-to-action .cta-text {
-  color: #fff;
-}
-
-@media (min-width: 769px) {
-  #call-to-action .cta-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-}
-
-#call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 26px;
-  border-radius: 3px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 3px solid #fff;
-  color: #fff;
-}
-
-#call-to-action .cta-btn:hover {
-  background: #c802a0;
-  border: 3px solid #c802a0;
-}
-
-/* Our Team Section
---------------------------------*/
-#team {}
-
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-#team .member .pic {
-  overflow: hidden;
-  text-align: center;
-}
-
-#team .member .pic img {
-  max-width: 100%;
-  padding: 3px;
-}
-
-#team .member .details {
-  background: #242b3d;
-  color: #c802a0;
-  padding: 15px 0;
-  border-radius: 0 0 3px 3px;
-}
-
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-}
-
-#team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-
-#team .member .social {
-  margin-top: 5px;
-  padding: 6px;
-  text-align: center;
-}
-
-#team .member .social a {
-  color: #ffffff;
-  margin: 2px 6px;
-  border: 1px solid #ffffff;
-  width: 42px;
-  display: inline-block;
-  opacity: 0.4;
-}
-
-#team .member .social a:hover {
-  color: #c802a0;
-  margin: 2px 6px;
-  border: 1px solid #c802a0;
-  opacity: 1;
-}
-
-#team .member .social i {
-  font-size: 16px;
-  margin: 0 2px;
-}
-
-/* Contact Section
---------------------------------*/
-#contact {}
-
-#contact .contact-info {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-#contact .contact-info i {
-  font-size: 24px;
-  display: inline-block;
-  margin-bottom: 0;
-  color: #c802a0;
-  float: left;
-}
-
-#contact .contact-info address,
-#contact .contact-info p {
-  margin-bottom: 0;
-  color: #fff;
-  display: block;
-  float: left;
-  width: 100%;
-  margin-bottom: 15px;
-  padding: 0;
-  margin-top: 0;
-  margin-left: 27px;
-  font-size: 14px;
-}
-
-#contact .contact-info h3 {
-  font-size: 16px;
-  margin-bottom: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #c802a0;
-  float: left;
-  margin: 8px 15px;
-}
-
-#contact .contact-info a {
-  color: #fff;
-}
-
-#contact .contact-info a:hover {
-  color: #c802a0;
-}
-
-#contact .contact-address,
-#contact .contact-phone,
-#contact .contact-email {
-  margin-bottom: 20px;
-}
-
-@media (min-width: 768px) {
-
-  #contact .contact-address,
-  #contact .contact-phone,
-  #contact .contact-email {
-    padding: 0;
-    text-align: left;
-  }
-}
-
-@media (min-width: 768px) {
-  #contact .contact-phone {}
-}
-
-#contact #google-map {
-  height: 290px;
-  margin-bottom: 20px;
-}
-
-@media (max-width: 576px) {
-  #contact #google-map {
-    margin-top: 20px;
-  }
-}
-
-#contact .form #sendmessage {
-  color: #c802a0;
-  border: 1px solid #c802a0;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #sendmessage.show,
-#contact .form #errormessage.show,
-#contact .form .show {
-  display: block;
-}
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#contact .form input,
-#contact .form textarea {
-  padding: 10px 14px;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 15px;
-  background: transparent;
-  border-color: #504f54;
-  color: #fff;
-}
-
-#contact .form button[type="submit"] {
-  background: #c802a0;
-  border: 0;
-  border-radius: 3px;
-  padding: 10px 30px;
-  color: #fff;
-  transition: 0.4s;
-  cursor: pointer;
-}
-
-#contact .form button[type="submit"]:hover {
-  background: #c802a0;
-  color: #23042f !important;
-}
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-  background: #0b111f;
-  padding: 0 0 30px 0;
-  font-size: 14px;
-  color: #fff;
-}
-
-#footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-  color: #ffffffad;
-}
-
-#footer .credits {
-  text-align: center;
-  font-size: 13px;
-  color: #ffffff85;
-  margin-top: 8px;
-}
-
-#footer .credits a {
-  color: #c802a0;
-}
-
-.owl-carousel .owl-item img {
-  display: block;
-  width: auto;
-  height: 70px;
-  margin: 0 auto;
-}
-
-/*-------------------
-Price
--------------------------*/
-#price {}
-
-.shape {
-  border-style: solid;
-  border-width: 0 70px 40px 0;
-  float: right;
-  height: 0px;
-  width: 0px;
-  -ms-transform: rotate(360deg);
-  /* IE 9 */
-  -o-transform: rotate(360deg);
-  /* Opera 10.5 */
-  -webkit-transform: rotate(360deg);
-  /* Safari and Chrome */
-  transform: rotate(360deg);
-}
-
-.offer {
-  /* background:#fff; */
-  border: 1px solid #ddd;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  margin: 15px 0;
-  overflow: hidden;
-}
-
-.offer:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: rotate scale(1.1);
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-.cta-title{
-  text-align: center;
-}
-.cta-text{
-  text-align: center;
-}
-.shape {
-  border-color: rgba(255, 255, 255, 0) #d9534f rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
-}
-
-.offer-radius {
-  border-radius: 7px;
-}
-
-.offer-danger {
-  border-color: #d9534f;
-}
-
-.offer-danger .shape {
-  border-color: transparent #d9534f transparent transparent;
-}
-
-.offer-success {
-  border-color: #5cb85c;
-}
-
-.offer-success .shape {
-  border-color: transparent #5cb85c transparent transparent;
-}
-
-.offer-default {
-  border-color: #999999;
-}
-
-.offer-default .shape {
-  border-color: transparent #999999 transparent transparent;
-}
-
-.offer-primary {
-  border-color: #428bca;
-}
-
-.offer-primary .shape {
-  border-color: transparent #428bca transparent transparent;
-}
-
-.offer-info {
-  border-color: #5bc0de;
-}
-
-.offer-info .shape {
-  border-color: transparent #5bc0de transparent transparent;
-}
-
-.offer-warning {
-  border-color: #f0ad4e;
-}
-
-.offer-warning .shape {
-  border-color: transparent #f0ad4e transparent transparent;
-}
-
-.shape-text {
-  color: #fff;
-  font-size: 12px;
-  font-weight: bold;
-  position: relative;
-  right: -40px;
-  top: 2px;
-  white-space: nowrap;
-  -ms-transform: rotate(30deg);
-  /* IE 9 */
-  -o-transform: rotate(360deg);
-  /* Opera 10.5 */
-  -webkit-transform: rotate(30deg);
-  /* Safari and Chrome */
-  transform: rotate(30deg);
-}
-
-.offer-content {
-  padding: 20px 20px 0;
-}
-
-@media (min-width: 487px) {
-  .container {
-    max-width: 750px;
-  }
-
-  .col-sm-6 {
-    width: 50%;
-  }
-
-  #intro {
-    width: 100%;
-    height: 87vh;
-    position: relative;
-    background: url(../img/intro-carousel/1.jpg) no-repeat;
-    background-size: contain;
-  }
-}
-
-@media (min-width: 900px) {
-  .container {
-    max-width: 970px;
-  }
-
-  .col-md-4 {
-    width: 33.33333333333333%;
-  }
-
-  #intro {
-    background-size: cover;
-  }
-}
-
-.sec-padding {
-  padding: 90px 0 90px 0;
-}
-
-@media (max-width: 767px) {
-  #intro {
-    width: 100%;
-    height: 43vh;
-    position: relative;
-    background: url(../img/intro-carousel/1.jpg) no-repeat;
-    background-size: contain;
-  }
-
-  .sec-padding {
-    padding: 30px 0;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1170px;
-  }
-
-  .col-lg-3 {
-    width: 25%;
-  }
-}
-  </style>
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-
+  <link href="css/footer_style.css" rel="stylesheet">
+  <link href="css/ionicons.min.css" rel="stylesheet">
+  
   <style>
+    html{
+      height: 100%;
+    }
     #flip {
       margin: auto;
+      margin-bottom: 30px;
       display: block;
       font-size: 18px;
       font-weight: bold;
@@ -1532,154 +54,245 @@ Price
       display: none;
     }
 
-    * {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: block;}
-img {vertical-align: middle;}
+    * {
+      box-sizing: border-box;
+    }
 
-/* Slideshow container */
-.slideshow-container {
-    width: 80%;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
-    height: 29%;
-    margin-bottom: 20px;
-    display: flex;
-}
+    body {
+      font-family: Verdana, sans-serif;
+    }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-/* Number text (1/3 etc) */
-.numbertext {
-  color:black;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-  display: flex;
-  width: 1000px;
-  height: 100%;
-}
+    .mySlides {
+      display: block;
+    }
 
-.textdec {
-  color:darkmagenta;
-  font-size: 22px;
-  padding:30px 30px 30px 30px;;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-image: linear-gradient(to top, lightgrey 0%, #afeaa3 100%);
-}
-.textdec h1{
-  margin: 0px;
-}
-.active {
-  background-color: #717171;
-}
+    img {
+      vertical-align: middle;
+    }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 600s;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
+    /* Slideshow container */
+    .slideshow-container {
+      width: 80%;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100%;
+      height: 29%;
+      margin-bottom: 50px;
+      display: flex;
+    }
 
-@keyframes fade {
-  from {opacity: 1} 
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
 
-  /* 25%{
-    opacity: 1
-  } */
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: black;
+      font-size: 12px;
+      width: 386px;
+      display: flex;
+      height: 586px;
+    }
 
-  to {opacity: 1}
-}
+    .textdec {
+      color: darkmagenta;
+      font-size: 22px;
+      padding: 30px 30px 30px 30px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-image: linear-gradient(to top, lightgrey 0%, #afeaa3 100%);
+    }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 768px) {
-  .slideshow-container {
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .numbertext{
-    display: block;
-  }
+    .textdec h1 {
+      margin: 0px;
+    }
 
-  .text {
-    font-size: 12px;
-  }
+    .active {
+      background-color: #717171;
+    }
 
-  .textdec {
-    font-size: 20px;
-  }
-}
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 600s;
+      height: 100%;
+      width: 80%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
 
-@media only screen and (max-width: 480px) {
-  .slideshow-container {
-    max-width: 300px;
-    border: 2px solid black;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    @keyframes fade {
+      from {
+        opacity: 1
+      }    
+      to {
+        opacity: 1
+      }
+    }
 
-  .text {
-    font-size: 10px;
-  }
+    @media only screen and (max-width: 991px){
+      #about .container{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      #services .card{
+        width: 75% !important;
+        margin: auto;
+        margin-bottom: 50px;
+      }
+     
+      #services{
+        padding: 90px 0 90px 0 !important;
+      }
+      .certificate_container{
+        justify-content: center;
+      }
+    }
 
-  .textdec {
-    font-size: 15px;
-  }
-}
+    @media only screen and (min-width: 1100px) and (max-width: 1300px){
+      .numbertext{
+        width: 50%;
+      }
+      .numbertext img{
+        width: 100% !important;
+      }
+      .textdec{
+        width: 50%;
+      }
+    }
+    .section-header h2{
+      font-size: 25px;
+    }
+    .section-header p{
+      font-size: 15px;
+    }
+      #about .content h2{
+        margin-top: 45px;
+      }
+      #about .content h3{
+        font-size: 16px;
+      }
+      #about .content ul{
+        font-size: 15px;
+      }
+      .col-lg-6{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    
+   
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 768px) {
+      .slideshow-container {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
 
+     
+      .text {
+        font-size: 12px;
+      }
+
+      #intro .intro-content .btn-get-started{
+        font-size: 20px;
+      }
+
+    }
+    @media only screen and (max-width: 1100px) {
+      .numbertext {
+        display: block;
+        margin-bottom: 50px;
+        width: 400px !important;
+      }
+      section.img_slider{
+        height: unset !important;
+      }
+      .fade{
+        flex-wrap: wrap;
+      }
+      .textdec {
+        font-size: 20px;
+        width: 400px !important;
+      }
+    }
+   
+    @media only screen and (max-width: 600px){
+      .fade{
+        width: 90%;
+      }
+      .numbertext{
+        width: 100% !important;
+      }
+      .textdec{
+        width: 100% !important;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .slideshow-container {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .text {
+        font-size: 10px;
+      }
+
+      .textdec h1{
+        font-size: 25px;
+      }
+      .fade{
+        width: 100%;
+      }
+      .numbertext img{
+        padding: 0px !important;
+      }
+
+      #achivements .container{
+        padding: 0px;
+      }
+      #achivements .section-header{
+        padding: 10px;
+      }
+      .certificate_container .row{
+        width: 275px;
+      }
+    }
+    .headerfixed{
+      position: fixed;
+      top: 0px;
+      width: 100%;
+    }
   </style>
 </head>
 
 <body id="body">
-
-  <!--==========================
-    Top Bar
-  ============================-->
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container clearfix">
-      <div class="contact-info float-left">
-        <i class="fa fa-envelope-o"></i> <a href="mailto:contact@example.com">name@websitename.com</a>
-        <i class="fa fa-phone"></i> +1 2345 67855 22
-      </div>
-      <div class="social-links float-right">
-        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-      </div>
-    </div>
-  </section>
-
   <!--==========================
     Header
   ============================-->
   <header id="header">
     <div class="container">
-
       <div id="logo" class="pull-left">
-        <!-- <h1><a href="#body" class="scrollto"><span>M</span>irrors</a></h1>  -->
         <a href="#body"><img src="img\custome_ing\logo_img.jpg" alt="" title="" /></a>
+      </div>
+      <div id="logo1" class="pull-left" style="float: right; display: none;">
+        <a href="#body"><img src="https://cdn-icons-png.flaticon.com/128/10486/10486773.png" alt="hamburger-menu" style=" padding: 10px;
+          cursor: pointer;" class="hamburger" /></a>
       </div>
 
       <nav id="nav-menu-container">
@@ -1687,19 +300,23 @@ img {vertical-align: middle;}
           <li class="menu-active"><a href="#body">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
-          <!-- <li class="menu-has-children"><a href="">Dropdown</a>
-            <ul>
-              <li><a href="#">Link Item 1</a></li>
-              <li><a href="#">Link Item 3</a></li>
-              <li><a href="#">Link Item 4</a></li>
-              <li><a href="#">Link Item 5</a></li>
-            </ul>
-          </li> -->
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Locate Us</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
+
+    <div class="nav-mobile" style="display: none;">
+      <ul class="nav-menu">
+        <li class="menu-active"><a href="#body">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Locate Us</a></li>
+      </ul>
+    </div>
   </header><!-- #header -->
+  
 
   <!--==========================
     Intro Section
@@ -1708,8 +325,9 @@ img {vertical-align: middle;}
 
     <div class="intro-content" style="margin-left: -25px ">
       <h2><span>Sonia Artistry Beauty <br>Salon & Academy</span><br>Best Salon in City</h2>
-      <div>
-        <a href="#about" class="btn-get-started scrollto">OFFERS</a>
+      <div class="appoint-btn">
+        <a href="#"
+          class="btn-get-started scrollto">Book Appointment</a>
       </div>
     </div>
     <div class="item" style="background-image: url('img/intro-carousel/1.jpg');"></div>
@@ -1724,10 +342,9 @@ img {vertical-align: middle;}
       <div class="container">
         <div class="section-header">
           <h2>About Sonia Artisry</h2>
-          <p>Welcome to Sonia Artistry Salon
-
-            At Sonia Artistry Salon, we believe that beauty is not just about how you look, but also about how you feel. Our salon is more than just a place to get your hair styled or your nails done – it's a sanctuary where you can relax, rejuvenate, and rediscover your inner beauty.
-
+          <p>Welcome to Sonia Artistry, your premier destination for beauty and elegance in Hisar, Panipat. Step into
+            our world of personalized beauty solutions, where our expert team is dedicated to making you feel confident
+            and glamorous with every visit.
           </p>
         </div>
         <div class="row">
@@ -1736,16 +353,17 @@ img {vertical-align: middle;}
           </div>
 
           <div class="col-lg-6 content">
-            <h2>    Welcome to Sonia Artistry Salon, where beauty begins with you.</h2>
-        
-            <p>At Sonia Artistry Salon, we believe in the power of self-expression and individuality. We understand that each person is unique, which is why we take the time to listen to your needs and tailor our services to suit your personal style and preferences. Whether you're looking for a bold new hairstyle, a relaxing spa treatment, or expert skincare advice, our team of skilled professionals is dedicated to helping you look and feel your best.</p>
+            <h2>Sonia Artistry: Elevating Your Beauty Experience</h2>
+            <h3>Celebrate your beauty journey with Sonia Artistry's range of premier services. From flawless makeup
+              transformations to exquisite nail art and expert hair care, we're here to elevate your beauty experience
+              to new heights.</h3>
             <ul>
-              <li><i class="icon ion-ios-checkmark-outline"></i> At Sonia Artistry Salon, we offer a comprehensive range of services to cater to all your beauty needs
-                culpa.</li>
-              <li><i class="icon ion-ios-checkmark-outline"></i> From precision haircuts and luxurious spa treatments to flawless makeup application and expert nail care
-                nulla.</li>
-              <li><i class="icon ion-ios-checkmark-outline"></i> Whether you're preparing for a special occasion or simply treating yourself to some well-deserved pampering, we have everything you need to look and feel your absolute best.
-                fugiat</li>
+              <li><i class="icon ion-ios-checkmark-outline"></i> Experience personalized makeup sessions tailored to
+                your unique style and preferences.</li>
+              <li><i class="icon ion-ios-checkmark-outline"></i> Indulge in vibrant nail designs and pampering
+                treatments for hands and feet.</li>
+              <li><i class="icon ion-ios-checkmark-outline"></i> Receive top-notch hair services using high-quality
+                products and cutting-edge techniques.</li>
             </ul>
           </div>
         </div>
@@ -1760,9 +378,8 @@ img {vertical-align: middle;}
       <div class="container">
         <div class="section-header">
           <h2>Our Services</h2>
-          <p>Welcome to Sonia Artistry! Discover our specialized services in enhancing natural beauty and transforming looks for any occasion. From bridal to editorial and evening events, our expert makeup artistry ensures a stunning appearance tailored to your needs. Elevate your style with professional hairstyling, offering sophistication or voluminous curls. With personalized lessons and collaborative opportunities for editorial projects, we cater to diverse preferences. Complete your ensemble with our indulgent nail services. Committed to excellence, we strive to surpass expectations in every service. Contact us today to schedule your appointment and unlock the essence of beauty and self-expression.
-            
-          </p>
+          <p>Discover our array of services through captivating visuals: each picture accompanied by a glimpse into the
+            excellence and variety offered by our parlour.</p>
         </div>
 
         <div class="row">
@@ -1774,8 +391,9 @@ img {vertical-align: middle;}
               </div>
 
               <div class="describe_content">
-                Sonia Artistry offers a complete spectrum of makeup services to enhance your natural beauty for any occasion. From flawless, everyday looks to show-stopping bridal packages with long-lasting wear, we've got you covered. Whether you're celebrating an engagement, turning heads at a party, attending a special event, or simply want to feel polished for the office, our skilled artists will create a customized look that complements your unique style and makes you feel confident and radiant.
-
+                Special Occasion Makeup: Whether it's a prom, anniversary, gala, or any special event, we're here to
+                ensure you shine with confidence. Our expert makeup artists will work closely with you to create a
+                flawless look that aligns with your vision and makes you feel stunning for your special occasion.
               </div>
 
             </div>
@@ -1788,8 +406,10 @@ img {vertical-align: middle;}
               </div>
 
               <div class="describe_content">
-             Sonia Artistry caters to all your hair care desires with a talented team of stylists. They offer a variety of services including haircuts, styling, coloring, extensions, and treatments to keep your hair healthy and looking its best. Whether you're seeking a classic cut, trendy style, vibrant color, or a special occasion updo, Sonia Artistry can help you achieve your hair dreams.
-
+                Haircuts and Styling: Whether you're craving a sleek bob, trendy layers, or a classic pixie cut, our
+                experienced hairstylists will work with you to create a customized look that complements your features
+                and reflects your personal style. From blowouts to updos, we'll ensure your hair looks flawless for any
+                occasion.
               </div>
 
             </div>
@@ -1801,8 +421,9 @@ img {vertical-align: middle;}
                 <h5 class="card-title" style="cursor: pointer;">NAILS</h5>
               </div>
               <div class="describe_content">
-                That paragraph perfectly summarizes the nail services offered by Sonia Artistry! It captures the essence of pampering treatments (classic, spa), long-lasting options (gel polish), artistic flair (nail art), and even practicality (nail repair). It effectively highlights the variety and personalization available for clients.
-
+                Immerse yourself in a world of nail perfection with our luxurious services. From expert manicures and
+                pedicures to long-lasting gel nails and custom acrylic extensions, we ensure flawless results every
+                time. Indulge in vibrant polish options and pampering treatments, leaving your hands feeling refreshed.
               </div>
 
             </div>
@@ -1813,21 +434,15 @@ img {vertical-align: middle;}
         <div class="row" id="panel" style="justify-content: center;">
           <div class="col-lg-4">
             <div class="card wow fadeInLeft" style="width: 18rem;">
-              <img src="img\custome_ing\mehandi.jpg" alt="makeup" class="card-img-top" style="height: 640px;">
+              <img src="img\custome_ing\mehandi.jpg" alt="makeup" class="card-img-top" style="height: 622px;">
               <div class="card-body">
                 <h5 class="card-title" style="cursor: pointer;">MEHANDI</h5>
               </div>
 
               <div class="describe_content">
-              Mesmerizing Mehndi Designs by Sonia Artistry
-Embrace the tradition of exquisite Mehndi designs at Sonia Artistry Salon. Our talented mehndi artists will create beautiful and intricate patterns that will adorn your hands and feet for your special occasion.
-
-Here's what we offer:
-
-Traditional and Modern Designs: We have a wide range of mehndi designs to choose from, including traditional Indian paisleys, intricate Arabic motifs, and modern floral patterns.
-Bridal Mehndi Specialists: Our artists are experts in creating stunning bridal mehndi designs that are both beautiful and symbolic.
-Natural Henna Products: We use only the highest quality, natural henna products to ensure the safety and vibrancy of your mehndi.
-Customizable Designs: We can customize any mehndi design to your liking, incorporating your favorite elements or matching it to your wedding attire.
+                Dive into a realm of intricate beauty with our Mehandi art services. From traditional designs to
+                contemporary patterns, we specialize in creating stunning henna art that captivates. Treat yourself to
+                exquisite adornments on your hands and feet, promising elegance and charm with every stroke.
               </div>
             </div>
           </div>
@@ -1839,262 +454,120 @@ Customizable Designs: We can customize any mehndi design to your liking, incorpo
               </div>
 
               <div class="describe_content">
-                Here is some content for the Skin section of your website for Sonia Artistry Salon:
-
-                Indulge in Glowing, Radiant Skin
-                
-                At Sonia Artistry Salon, we understand the importance of healthy, beautiful skin. That's why we offer a variety of advanced skincare treatments and services designed to cleanse, nourish, and revitalize your skin. Our experienced estheticians will work with you to create a personalized skincare plan that addresses your unique needs and goals, whether you're looking to combat acne, reduce signs of aging, or simply achieve a more even skin tone.
-                
+                Step into a world of radiant skin with our expert services. From revitalizing facials to targeted
+                treatments for specific concerns, we're dedicated to enhancing your natural glow. Indulge in
+                personalized skincare routines tailored to your unique needs, leaving your complexion refreshed and
+                rejuvenated.
               </div>
             </div>
           </div>
-          <!-- <div class="col-lg-4">
-            <div class="card wow fadeInLeft" style="width: 18rem;">
-              <img src="img\custome_ing\Nails.jpg" alt="Nails" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">HANDS & FEET</h5>
-              </div>
-            </div>
-          </div> -->
         </div>
-
-        <!-- <div id="panel">Hello javatpoint.com!
-          It is the best tutorial website to learn jQuery and other languages.
-        </div> -->
-
       </div>
     </section><!-- #services -->
     <!--==========================
       Price Section
     ============================-->
 
-    <section class="img_slider" style="height: 2200px; margin-top: -45px; margin-bottom: -17px; background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);">
-      <h2 style="text-align: center; padding: 45px 0px 30px 0px;
-    font-weight: bold; color: black; font-size: 40px;">Our Work</h2>
+    <section class="img_slider" id="works"
+      style=" height: 2200px; 
+      margin-top: -45px; margin-bottom: -17px; background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);">
+     
+      <div class="section-header" style="color: black; width: 70%;
+    margin: auto; margin-bottom: 50px;">
+        <h2 style="color: black;">Our Work</h2>
+        <p>At Sonia Artistry, explore our premier services showcased through captivating image sliders: from makeup
+          transformations to stunning nail art and hair transformations, witness excellence in every slide.
+        </p>
+      </div>
       <div class="slideshow-container">
-        
+
         <div class="mySlides fade">
           <div class="numbertext">
-            <img src="https://cdn-icons-png.flaticon.com/128/3661/3661484.png" style="width: 40px; height: 40px; position: relative; top: 300px;
-            left: 46px; cursor: pointer;">
-
             <img src="img\custome_ing\makeup-slider1.jpg"
-            style="width:50%; padding: 40px 50px;border: 2px solid black  ; background-color: whitesmoke;">
-            <img src="https://cdn-icons-png.flaticon.com/128/3661/3661482.png" style="width: 40px; height: 40px; position: relative; top: 300px;
-            right: 46px; cursor: pointer;">
-            <div class="textdec">
-              <h1 style="color:black; font-weight: bolder  ;padding-bottom:58px ;">MakeUp Work</h1>Step into the enchanting realm of makeup artistry at Sonia Artistry Salon and discover a world where your natural beauty is celebrated and enhanced for any occasion. From expert makeup applications that cater to glamorous evenings or romantic weddings to personalized bridal makeup services ensuring you shine on your special day, our skilled team of makeup artists uses premium products and cutting-edge techniques to bring your vision to life. Whether it's for prom, graduation, or any noteworthy event, our special occasion makeup services will help you make a statement, tailored to your style. And for those eager to learn the secrets of flawless makeup, our makeup lessons offer insider tips and techniques for achieving professional results at home. Welcome to the magic of makeup with Sonia Artistry.
-            </div>
+              style="padding: 40px 50px;border: 2px solid black  ; background-color: whitesmoke; width: inherit; height: inherit;"
+              id="makeup_1">
+          </div>
+          <div class="textdec">
+            <h1 style="color:black; font-weight: bolder  ;padding-bottom:58px ;">MakeUp Work</h1>
+            At Sonia Artistry, we believe makeup is not just about enhancing features; it's about embracing
+            individuality and expressing your unique beauty. Our team of professional makeup artists is dedicated to
+            helping you look and feel your absolute best for any occasion.
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Slider - 2 -->
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">   
+            <img src="img\\custome_ing\\hair_slider2.jpg"
+              style="padding: 40px 50px;border: 2px solid black  ; background-color: whitesmoke; width: inherit; height: inherit;"
+              id="hairs_1">
+          </div>
+          <div class="textdec">
+            <h1 style="color:black; font-weight: bolder  ;padding-bottom:58px ;">Hair Work</h1>
+            At Sonia Artistry, we prioritize the health and integrity of your hair, which is why we use only the highest
+            quality hair care products and tools. Our team stays up-to-date with the latest trends and techniques to ensure you receive the best hair services tailored to your unique needs and preferences.
           </div>
         </div>
+      </div>
+      <br>
+
+      <!-- Slider - 3 -->
+
+      <div class="slideshow-container" style="margin-top: -25px;">
 
         <div class="mySlides fade">
           <div class="numbertext">
-            <img src="img\custome_ing\makeup-slider2.jpg"
-              style="width:50%; height: 100%; padding: 3%; border: 2px solid black;  background-color: whitesmoke;">
-            <div class="textdec">
-              <h1 style="color:black; font-weight: bolder ; padding-bottom:58px ;">Haircuts</h1>Step into the enchanting realm of makeup artistry at Sonia Artistry Salon and discover a world where your natural beauty is celebrated and enhanced for any occasion. From expert makeup applications that cater to glamorous evenings or romantic weddings to personalized bridal makeup services ensuring you shine on your special day, our skilled team of makeup artists uses premium products and cutting-edge techniques to bring your vision to life. Whether it's for prom, graduation, or any noteworthy event, our special occasion makeup services will help you make a statement, tailored to your style. And for those eager to learn the secrets of flawless makeup, our makeup lessons offer insider tips and techniques for achieving professional results at home. Welcome to the magic of makeup with Sonia Artistry.
-            </div>
+          
+            <img src="img\\custome_ing\\Nails_slider1.jpg"
+              style="padding: 40px 50px;border: 2px solid black  ; background-color: whitesmoke; width: inherit; height: inherit;"
+              id="nails_1">
           </div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">
-            <img src="img\custome_ing\makeup-slider3.jpg"
-              style="width:42%; height: 100%; padding: 3%;border: 2px solid black ;  background-color: whitesmoke;">
-
-            <div class="textdec" style="">
-              <h1 style="color:black; font-weight: bolder ;">MakeUp Work</h1><br>
-              Step into the enchanting realm of makeup artistry at Sonia Artistry Salon and discover a world where your natural beauty is celebrated and enhanced for any occasion. From expert makeup applications that cater to glamorous evenings or romantic weddings to personalized bridal makeup services ensuring you shine on your special day, our skilled team of makeup artists uses premium products and cutting-edge techniques to bring your vision to life. Whether it's for prom, graduation, or any noteworthy event, our special occasion makeup services will help you make a statement, tailored to your style. And for those eager to learn the secrets of flawless makeup, our makeup lessons offer insider tips and techniques for achieving professional results at home. Welcome to the magic of makeup with Sonia Artistry.
-            </div>
+          <div class="textdec">
+            <h1 style="color:black; font-weight: bolder  ;padding-bottom:58px ;">Nails Work</h1>
+            At Sonia Artistry, we place paramount importance on the health and beauty of your nails. That's why we
+            exclusively utilize premium nail care products and tools. Our skilled team stays abreast of the latest
+            nail trends and techniques to deliver personalized nail services that align perfectly with your
+            preferences and style.
           </div>
+
         </div>
 
       </div>
       <br>
-
-      <div style="text-align:center">
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-      </div>
-
-<!-- Slider - 2 -->
-
-<div class="slideshow-container">
-
-  <div class="mySlides fade">
-    <div class="numbertext">
-      <img src="img\custome_ing\hair_slider1.jpg"
-        style="width:50%; padding: 3%;border: 2px solid black  ; background-color: whitesmoke;">
-      <div class="textdec">
-        <h1 style="color:black; font-weight: bolder  ;padding-bottom:58px ;">Hair Work</h1>Haircuts and
-        Styling: Whether you're craving a sleek bob, trendy layers, or a classic pixie cut, our experienced
-        hairstylists will work with you to create a customized look that complements your features and reflects
-        your personal style. From blowouts to updos, we'll ensure your hair looks flawless for any occasion.
-        <br>Hair Extensions: Want to add length, volume, or texture to your hair? Our hair extension services
-        offer a seamless and natural-looking solution to transform your hair in minutes. Whether you desire long,
-        flowing locks or a voluminous mane, our hair extensions will help you achieve your desired look with ease.
-      </div>
-    </div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">
-      <img src="img\custome_ing\hair_slider2.jpg"
-        style="width:50%; height: 100%; padding: 3%; border: 2px solid black;  background-color: whitesmoke;">
-      <div class="textdec">
-        <h1 style="color:black; font-weight: bolder ; padding-bottom:58px ;">Hair Work</h1>Haircuts and
-        Styling: Whether you're craving a sleek bob, trendy layers, or a classic pixie cut, our experienced
-        hairstylists will work with you to create a customized look that complements your features and reflects
-        your personal style. From blowouts to updos, we'll ensure your hair looks flawless for any
-        occasion.<br>Hair Extensions: Want to add length, volume, or texture to your hair? Our hair extension
-        services offer a seamless and natural-looking solution to transform your hair in minutes. Whether you
-        desire long, flowing locks or a voluminous mane, our hair extensions will help you achieve your desired
-        look with ease.
-      </div>
-    </div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">
-      <img src="img\custome_ing\hair_slider3.jpg"
-        style="width:42%; height: 100%; padding: 3%;border: 2px solid black ;  background-color: whitesmoke;">
-
-      <div class="textdec" style="">
-        <h1 style="color:black; font-weight: bolder ;">Hair Work</h1><br>Haircuts and
-        Styling: Whether you're craving a sleek bob, trendy layers, or a classic pixie cut, our experienced
-        hairstylists will work with you to create a customized look that complements your features and reflects
-        your personal style. From blowouts to updos, we'll ensure your hair looks flawless for any
-        occasion.<br>Hair Extensions: Want to add length, volume, or texture to your hair? Our hair extension
-        services offer a seamless and natural-looking solution to transform your hair in minutes. Whether you
-        desire long, flowing locks or a voluminous mane, our hair extensions will help you achieve your desired
-        look with ease.
-      </div>
-    </div>
-  </div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
-
-<!-- Slider - 3 -->
-
-<div class="slideshow-container">
-
-  <div class="mySlides fade">
-    <div class="numbertext">
-      <img src="img\custome_ing\Nails_slider1.jpg"
-        style="width:50%; padding: 3%;border: 2px solid black  ; background-color: whitesmoke;">
-      <div class="textdec">
-        <h1 style="color:black; font-weight: bolder  ;padding-bottom:58px ;">Nails Work</h1>Sonia Artistry Salon offers a variety of pampering nail services to leave your hands and feet feeling refreshed and stylish. Their skilled technicians provide manicures, pedicures, gel polish application, and custom nail art designs. They prioritize healthy nails using gentle techniques and high-quality products. Book an appointment and treat yourself to beautiful, healthy nails!
-            </div>
-    </div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">
-      <img src="img\custome_ing\Nails_slider2.jpg"
-        style="width:50%; height: 100%; padding: 3%; border: 2px solid black;  background-color: whitesmoke;">
-      <div class="textdec">
-        <h1 style="color:black; font-weight: bolder ; padding-bottom:58px ;">Nails Work</h1>Sonia Artistry Salon offers a variety of pampering nail services to leave your hands and feet feeling refreshed and stylish. Their skilled technicians provide manicures, pedicures, gel polish application, and custom nail art designs. They prioritize healthy nails using gentle techniques and high-quality products. Book an appointment and treat yourself to beautiful, healthy nails!
-
-      </div>
-    </div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">
-      <img src="img\custome_ing\Nails_slider3.jpg"
-        style="width:42%; height: 100%; padding: 3%;border: 2px solid black ;  background-color: whitesmoke;">
-
-      <div class="textdec" style="">
-        <h1 style="color:black; font-weight: bolder ;">Nails Work</h1><br>Sonia Artistry Salon offers a variety of pampering nail services to leave your hands and feet feeling refreshed and stylish. Their skilled technicians provide manicures, pedicures, gel polish application, and custom nail art designs. They prioritize healthy nails using gentle techniques and high-quality products. Book an appointment and treat yourself to beautiful, healthy nails!
-      </div>
-    </div>
-  </div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
     </section>
 
     <hr style="height: 5px; background-color: darkmagenta; width: 100%;">
-    <section id="price" class="wow fadeInUp sec-padding">
-      <div class="container">
+    <section id="achivements" class="wow fadeInUp sec-padding">
+      <div class="container" style="padding: 15px; ">
         <div class="section-header">
-          <h2>Sonia Artistry Provides</h2>
-          <p>At Sonia Artistry Salon, we pride ourselves on having a team of skilled and passionate beauty professionals dedicated to enhancing your natural beauty and providing you with an exceptional salon experience. Each member of our team is carefully selected based on their expertise, professionalism, and commitment to excellence. 
-             </p>
+          <h2>Our Achivements</h2>
+          <p>Explore our achievements and offerings in one glance: from certificates showcasing our expertise to our
+            parlor poster detailing our services and academy training opportunities.
+          </p>
         </div>
 
-        <div class="row">
-          <img src="img\custome_ing\Certificates.jpg" alt="owner_cert">
-          <img src="img\custome_ing\shop_poster.jpg" alt="shop_poster">
-        </div>
-    </section><!-- #clients -->
-
-    <!--==========================
-      Clients Section
-    ============================-->
-    <section id="clients" class="wow fadeInUp sec-padding">
-      <div class="container">
-        <div class="section-header">
-          <h2>Products</h2>
-          <p>Elevate Your Beauty Routine with Sonia Artistry Salon Products
-            Unleash the salon experience at home. At Sonia Artistry Salon, we believe beauty flourishes with consistent care. That's why we offer a curated selection of the professional-grade skincare and haircare products our expert estheticians and stylists love.
-                  </p>
-        </div>
-
-        <div class="owl-carousel clients-carousel">
-          <img src="img/clients/client-1.jpg" alt="">
-          <img src="img/clients/client-2.jpg" alt="">
-          <img src="img/clients/client-3.jpg" alt="">
-          <img src="img/clients/client-4.jpg" alt="">
-          <img src="img/clients/client-5.jpg" alt="">
-          <img src="img/clients/client-6.jpg" alt="">
-        </div>
-
-      </div>
-    </section><!-- #clients -->
-
-    <!--==========================
-      Call To Action Section
-    ============================-->
-    <section id="call-to-action" class="wow fadeInUp sec-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Get Our Service</h3>
-            <p class="cta-text">
-              Here's a concise summary of the services offered at Salon Sonia Artistry:
-
-"Transform your look with expert hair styling, elevate your beauty game with professional makeup artistry, and make your wedding day unforgettable with our bridal services. Pamper your skin with luxurious treatments and enhance your natural beauty with eyelash extensions."
-
-            </p>
+        <div class="certificate_container">
+          <div class="row">
+            <img src="img\custome_ing\Certificates.jpg" alt="owner_cert">
           </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#contact">Contact Us</a>
+
+          <div class="row">
+            <img src="img\custome_ing\shop_poster.jpg" alt="shop_poster">
           </div>
         </div>
-
-      </div>
-    </section><!-- #call-to-action -->
+    </section>
 
     <!--==========================
       Our Team Section
     ============================-->
-    <section id="team" class="wow fadeInUp sec-padding">
+    <!-- <section id="team" class="wow fadeInUp sec-padding">
       <div class="container">
         <div class="section-header">
           <h2>Our Team</h2>
@@ -2165,8 +638,9 @@ Customizable Designs: We can customize any mehndi design to your liking, incorpo
           </div>
         </div>
 
-      </div>
-    </section><!-- #team -->
+      </div> 
+  </section> -->
+    <!-- #team -->
 
     <!--==========================
       Contact Section
@@ -2174,67 +648,8 @@ Customizable Designs: We can customize any mehndi design to your liking, incorpo
     <section id="contact" class="wow fadeInUp sec-padding">
       <div class="container">
         <div class="section-header">
-          <h2>Contact Us</h2>
-          <p>
-          </p>
-        </div>
-
-        <div class="row contact-info">
-          <div class="col-lg-5">
-            <div class="contact-address">
-              <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
-              <address>MN-12 Lincon Street, NewYork 12356, USA</address>
-            </div>
-            <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 2345 67890 12</a></p>
-            </div>
-            <div class="contact-email">
-              <i class="ion-ios-email-outline"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@example.com">name@website.com</a></p>
-            </div>
-          </div>
-          <div class="col-lg-7">
-            <div class="container">
-              <div class="form">
-
-                <!-- Form itself -->
-                <form name="sentMessage" class="well" id="contactForm" novalidate>
-                  <div class="control-group">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Full Name" id="name" required
-                        data-validation-required-message="Please enter your name" />
-                      <p class="help-block"></p>
-
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class="controls">
-                      <input type="email" class="form-control" placeholder="Email" id="email" required
-                        data-validation-required-message="Please enter your email" />
-                    </div>
-                  </div>
-
-                  <div class="form-group">
-                    <div class="controls">
-                      <textarea rows="10" cols="100" class="form-control" placeholder="Message" id="message" required
-                        data-validation-required-message="Please enter your message" minlength="5"
-                        data-validation-minlength-message="Min 5 characters" maxlength="999"
-                        style="resize:none"></textarea>
-                    </div>
-                  </div>
-                  <div id="success"> </div> <!-- For success/fail messages -->
-                  <button type="submit" class="btn btn-primary pull-right">Send</button><br />
-                </form>
-              </div>
-
-            </div>
-          </div>
-
-
+          <h2 style="color: black;">Locate Us</h2>
+          <p style="color: black;">Locate us effortlessly using our interactive Google Map. Your journey to beauty begins here.</p>
         </div>
       </div>
 
@@ -2251,33 +666,82 @@ Customizable Designs: We can customize any mehndi design to your liking, incorpo
   <!--==========================
     Footer
   ============================-->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>Sonia Artistry</strong>. All Rights Reserved
-      </div>
-      
-    </div>
-  </footer><!-- #footer -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <footer class="footer-01">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+          <h2 class="footer-heading">Sonia Artistry</h2>
+          <p>Sonia Artistry in Hisar, Haryana, is your one-stop beauty destination. Offering expert services in hair,
+            nails, mehndi, skin, and makeup, we specialize in enhancing your natural beauty with personalized care and
+            attention.</p>
+          <ul class="ftco-footer-social p-0">
+            <li class="ftco-animate">
+              <a href="https://wa.me/+918453311222" data-toggle="tooltip" data-placement="top" title=""
+                data-original-title="WhatsApp">
+                <img src="https://cdn-icons-png.flaticon.com/128/5719/5719280.png" alt="whatsapp-icon"
+                  class="nav_icons">
+              </a>
+            </li>
+            <li class="ftco-animate">
+              <a href="https://www.facebook.com/profile.php?id=100081890543915&mibextid=ZbWKwL" data-toggle="tooltip"
+                data-placement="top" title="" data-original-title="Facebook">
+                <img src="https://cdn-icons-png.flaticon.com/128/3670/3670124.png" alt="facebook-icon"
+                  class="nav_icons">
+              </a>
+            </li>
+            <li class="ftco-animate">
+              <a href="https://www.instagram.com/sonia_artisrty?utm_source=qr&igsh=M214MjlyYnRhY3cy"
+                data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram">
+                <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="instagram-icon"
+                  class="nav_icons">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
+          <h2 class="footer-heading">Quick Links</h2>
+          <ul class="list-unstyled">
+            <li><a href="#intro" class="py-2 d-block">Home</a></li>
+            <li><a href="#about" class="py-2 d-block">About</a></li>
+            <li><a href="#services" class="py-2 d-block">Services</a></li>
+            <li><a href="#works" class="py-2 d-block">Works</a></li>
+            <li><a href="#achivements" class="py-2 d-block">Achivements</a></li>
+            <li><a href="#contact" class="py-2 d-block">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+          <h2 class="footer-heading">Have a Questions?</h2>
+          <div class="block-23 mb-3">
+            <ul>
+              <li><span class="icon ion-ios-pin"></span><span class="footer_text">Sonia Artistry Salon & Academy, Arya
+                  Bazaar, Uklana Mandi,</span></li>
+              <li><a href="tel:+91 8453311222"><span class="icon ion-ios-call"></span><span class="footer_text">+91
+                    8453311222</span></a></li>
+              <li><a href="mailto: Soniaartistry1@gmail.com"><span class="icon ion-ios-send"></span><span
+                    class="footer_text">Soniaartistry1@gmail.com</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5" style="width: 100%;">
+        <div class="col-md-12 text-center">
+          <p class="copyright">
+            Copyright ©
+            <script>document.write(new Date().getFullYear());</script> All rights reserved |
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer> <!-- #footer -->
+
 
   <!-- JavaScript  -->
-  <script type="module" src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
   <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
-  <script src="lib/sticky/sticky.js"></script>
-  <script src="contact/jqBootstrapValidation.js"></script>
-  <script src="contact/contact_me.js"></script>
-  <script src="js/main.js"></script>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- <script src="js/main.js"></script> -->
+
   <script>
 
     $(document).ready(function () {
@@ -2297,6 +761,13 @@ Customizable Designs: We can customize any mehndi design to your liking, incorpo
       });
     });
 
+    $(document).ready(function () {
+      $(".hamburger:eq(0)").click(function () {
+        console.log("Hello, hambuger is now clicked.");
+        $(".nav-mobile:eq(0)").slideToggle("fast");
+        $(".nav-mobile:eq(0)").css("display", "flex");
+      });
+    });
     $(document).ready(function () {
       $(".card-title:eq(0)").click(function () {
         console.log("Hello, Heading is now clicked.");
@@ -2323,15 +794,6 @@ Customizable Designs: We can customize any mehndi design to your liking, incorpo
         console.log("Hello, Heading is now clicked.");
         $(".describe_content:eq(3)").slideToggle("fast");
         $(".describe_content:eq(3)").css("display", "block");
-        // $(".card:eq(3)").css("height", "889.6px");
-
-        //   console.log("Height = ", $(".card:eq(3)").height());
-        //   if ( $(".card:eq(3)").height() == "704") {
-        //     $(".card:eq(3)").css("height", "889.6px");
-        //   }
-        // else{
-        //   $(".card:eq(3)").css("height", "704px");
-        // }
       });
     });
     $(document).ready(function () {
@@ -2343,7 +805,6 @@ Customizable Designs: We can customize any mehndi design to your liking, incorpo
     });
 
     const card_title = document.getElementsByClassName("card-title");
-    console.log("Card-title: ", card_title);
 
     const card_box = document.getElementsByClassName("card")[3];
 
@@ -2355,78 +816,209 @@ Customizable Designs: We can customize any mehndi design to your liking, incorpo
     let slideIndex2 = 3;
     let slideIndex_3 = 6;
 
-    showSlides1();
-    showSlides2();
-    showSlides3();
-function showSlides1() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
+    function showSlides1() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
 
-  console.log("Slides = \n", slides);
-  console.log("dots = \n", dots);
-  for (i = 0; i < 3; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex1++;
-  if (slideIndex1 > 3) {slideIndex1 = 1}    
-  for (i = 0; i < 3; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex1-1].style.display = "flex";  
-  dots[slideIndex1-1].className += " active";
-  setTimeout(showSlides1, 500000); // Change image every 2 seconds
-}
+      console.log("Slides = \n", slides);
+      console.log("dots = \n", dots);
+      for (i = 0; i < 3; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex1++;
+      if (slideIndex1 > 3) { slideIndex1 = 1 }
+      for (i = 0; i < 3; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex1 - 1].style.display = "flex";
+      dots[slideIndex1 - 1].className += " active";
+      setTimeout(showSlides1, 500000); // Change image every 2 seconds
+    }
 
-function showSlides2() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
+    function showSlides2() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
 
-  console.log("Slides = \n", slides);
-  console.log("dots = \n", dots);
-  for (i = 3; i < 6; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex2++;
-  if (slideIndex2 > 5) {slideIndex2 = 3}    
-  for (i = 3; i < 6; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex2-1].style.display = "flex";  
-  dots[slideIndex2-1].className += " active";
-  setTimeout(showSlides2, 500000); // Change image every 2 seconds
-}
+      console.log("Slides = \n", slides);
+      console.log("dots = \n", dots);
+      for (i = 3; i < 6; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex2++;
+      if (slideIndex2 > 5) { slideIndex2 = 3 }
+      for (i = 3; i < 6; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex2 - 1].style.display = "flex";
+      dots[slideIndex2 - 1].className += " active";
+      setTimeout(showSlides2, 500000); // Change image every 2 seconds
+    }
 
-function showSlides3() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
+    function showSlides3() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
 
-  console.log("Slides = \n", slides);
-  console.log("dots = \n", dots);
-  for (i = 6; i < 9; i++) {
-    slides[i].style.display = "none";  
-  }
+      console.log("Slides = \n", slides);
+      console.log("dots = \n", dots);
+      for (i = 6; i < 9; i++) {
+        slides[i].style.display = "none";
+      }
 
-  console.log("st_Index_3: ", slideIndex_3);
-  slideIndex_3++;
+      console.log("st_Index_3: ", slideIndex_3);
+      slideIndex_3++;
 
-  if (slideIndex_3 == 9) {
-    slides[8].style.display = "flex";
-  }
-  if (slideIndex_3 > 8) {slideIndex_3 = 6}    
-  for (i = 6; i < 9; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
- 
-  slides[slideIndex_3 - 1].style.display = "flex";  
-  dots[slideIndex_3 - 1].className += " active";
-  setTimeout(showSlides3, 500000); // Change image every 2 seconds
-}
+      if (slideIndex_3 == 9) {
+        slides[8].style.display = "flex";
+      }
+      if (slideIndex_3 > 8) { slideIndex_3 = 6 }
+      for (i = 6; i < 9; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
 
+      slides[slideIndex_3 - 1].style.display = "flex";
+      dots[slideIndex_3 - 1].className += " active";
+      setTimeout(showSlides3, 500000); // Change image every 2 seconds
+    }
+
+    const img_url1 = `img\\custome_ing\\makeup-slider1.jpg`;
+    const img_url2 = `img\\custome_ing\\makeup-slider2.jpg`;
+    const img_url3 = `img\\custome_ing\\makeup-slider4.jpg`;
+
+    const hairs_img_url1 = `img\\custome_ing\\hair_slider2.jpg`;
+    const hairs_img_url2 = `img\\custome_ing\\hair_slider3.jpg`;
+    const hairs_img_url3 = `img\\custome_ing\\hair_slider4.jpg`;
+
+    const nails_img_url1 = `img\\custome_ing\\Nails_slider1.jpg`;
+    const nails_img_url2 = `img\\custome_ing\\Nails_slider2.jpg`;
+    const nails_img_url3 = `img\\custome_ing\\Nails.jpg`;
+
+    const makeup_image = document.getElementById("makeup_1");
+    const hairs_image = document.getElementById("hairs_1");
+    const nails_image = document.getElementById("nails_1");
+
+
+    function runCode() {
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          makeup_image.src = img_url1;
+          hairs_image.src = hairs_img_url1;
+          nails_image.src = nails_img_url1;
+          resolve();
+        }, 5000);
+      })
+        .then(() => {
+          return new Promise((resolve, reject) => {
+            setTimeout(() => {
+              makeup_image.src = img_url2;
+              hairs_image.src = hairs_img_url2;
+              nails_image.src = nails_img_url2;
+
+              resolve();
+            }, 5000);
+          });
+        })
+        .then(() => {
+          setTimeout(() => {
+            makeup_image.src = img_url3;
+            hairs_image.src = hairs_img_url3;
+            nails_image.src = nails_img_url3;
+
+          }, 5000);
+        })
+        .catch(() => {
+          console.log("There is an error encountered during promise execution.");
+        });
+    }
+
+    function image_changer() {
+      runCode().then(() => {
+        // Schedule the next execution after 5 seconds
+        setTimeout(image_changer, 5000);
+      });
+    }
+
+    // Initial execution
+    image_changer();
+
+    let previuosscrolled = 0, currentscrolled = 0;
+
+    function myFunction() {
+      if (document.body.scrollTop > 0 ) {
+        document.getElementById("header").classList.add("headerfixed");
+      }
+      else if (document.body.scrollTop <= 0){
+        document.getElementById("header").classList.remove("headerfixed");
+      }
+    }
+    
+
+    window.onscroll = function() { 
+      currentscrolled  = window.pageYOffset;
+
+      if (currentscrolled > 0) {
+        if (previuosscrolled == 0) {
+          previuosscrolled = currentscrolled;
+        }
+        else{
+          if (previuosscrolled <= currentscrolled) {
+            document.getElementById("header").classList.remove("headerfixed");
+          }
+          else{
+            document.getElementById("header").classList.add("headerfixed");
+          }
+
+          previuosscrolled = currentscrolled;
+        }
+      }
+      else if (currentscrolled == 0) {
+        document.getElementById("header").classList.remove("headerfixed");
+      }
+      
+    };
 
   </script>
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+
+   let btnref, flag;
+   flag = 0;
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3PeKlI2W4_HcfefvmZgOB4q0Eq5NAVbLLUSLE0BuJOg7LKkY0A-ix19UqzwX5ARSc6L-xDsW60?gv=true',
+      color: '#c802a0',
+      label: 'Book an appointment',
+      target,
+    });
+
+    btnref = document.getElementsByClassName("qxCTlb")[0];
+    
+    flag = 1;
+    console.log("Calendar Content: ", calendar);
+    console.log("btnref Content: ", btnref);
+  
+  });
+})();
+
+let bookappointment = document.getElementsByClassName("appoint-btn")[0];
+console.log("bookappointment Content: ", bookappointment);
+
+bookappointment.addEventListener("click", ()=>{
+  if (flag) {
+    btnref.click();
+  }
+})
+
+
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
 
 </body>
 
